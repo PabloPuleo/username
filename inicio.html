@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección Argentina</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="cumple.js"></script>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\PabloMiguel\Documents\Pabli\Curso Programacion\Trabajo final\AFA-removebg-preview.png" width="75" height="100">
+        <h1>Selección de fútbol de Argentina</h1>
+        <nav>
+        <ul id="menu">
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="">Selecciones campeonas del mundo</a>
+                <ul>
+                    <li><a href="mundial78.html">Mundial 78'</a></li>
+                    <li><a href="Mundial86.html">mundial 86'</a></li>
+                </ul>
+            </li>
+            <li><a href="">Selecciones campeonas de la copa America</a>
+                <ul>
+                    <li><a href="copaamerica21.html">Copa America 21'</a></li>
+                    <li><a href="copaamerica25.html">Copa America 25'</a></li>
+                    <li><a href="copaamerica27.html">Copa America 27'</a></li>
+                    <li><a href="copaamerica29.html">Copa America 29'</a></li>
+                    <li><a href="copaamerica37.html">Copa America 37'</a></li>
+                    <li><a href="copaamerica41.html">Copa America 41'</a></li>
+                    <li><a href="copaamerica45.html">Copa America 45'</a></li>
+                    <li><a href="copaamerica46.html">Copa America 46'</a></li>
+                    <li><a href="copaamerica47.html">Copa America 47'</a></li>
+                    <li><a href="copaamerica55.html">Copa America 55'</a></li>
+                    <li><a href="copaamerica57.html">Copa America 57'</a></li>
+                    <li><a href="copaamerica59.html">Copa America 59'</a></li>
+                    <li><a href="copaamerica91.html">Copa America 91'</a></li>
+                    <li><a href="copaamerica93.html">Copa America 93'</a></li>
+                    <li><a href="copaamerica2021.html">Copa America 21'</a></li>
+                </ul>
+            </li>
+            <li><a href="">Redes sociales</a>
+                <ul>
+                    <li><a href="https://es-la.facebook.com/AFASeleccionArgentina/">Facebook</a></li>
+                    <li><a href="https://twitter.com/argentina/?lang=es">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/afaseleccion/?hl=es">Instagram</a></li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <main style="width: 65%; float: left;">
+        <br><br>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="C:\Users\PabloMiguel\Documents\Pabli\Curso Programacion\Trabajo final\Carrusel\Selección.jpg" 
+                class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\PabloMiguel\Documents\Pabli\Curso Programacion\Trabajo final\Carrusel\Campeones.jpg" 
+                class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\PabloMiguel\Documents\Pabli\Curso Programacion\Trabajo final\Carrusel\VamoMessi.jpg" 
+                class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br><br>
+          <form action="">
+            <div class="contenedorform">
+                <h2>¿Querés saber quién nació el mismo mes que vos?</h2>
+                <p class="texto-comun">
+                    Nombre: <input type="text" name="nombre" minlength="3" maxlength="25" class="formu">
+                    <br>
+                    Apellido: <input type="text" name="apellido" minlength="3" maxlength="25" class="formu">
+                    <br>
+                    Día de nacimiento <input type="number" name="dia" maxlength="31" class="formul">
+                    <br>
+                    Mes de nacimiento <input type="text" name="mes" id="mes" minlength="4" maxlength="15" class="form">
+                    <br>
+                    Año de nacimiento <input type="number" name="dia" maxlength="31" class="form">
+                    <br>
+                    <button type="button" onclick=cumple() class="boton">Jugar</button>
+                </p>
+            </div>
+          </form>
+        <h3>¿Te interesa la historia de nuestro deporte?<br>
+        Descargá y disfrutá del siguiente PDF.</h3>
+        <h3><a href="C:\Users\PabloMiguel\Documents\Pabli\Curso Programacion\Trabajo final\dictadura_deporte_y_memoria_-_versionfinal.pdf">Descargar</a></h3><br><br><br>
+    </main>
+
+    <aside style="width: 30%; float: right;">
+        <a href="https://www.ole.com.ar/seleccion/dibu-martinez-mira-_0_f1lVnmABuF.html"><img 
+            src="https://images.ole.com.ar/2022/05/31/XnF0UqXUU_320x210__1.jpg" width="400" height="260"></a>
+            <h2><a href="https://www.ole.com.ar/seleccion/dibu-martinez-mira-_0_f1lVnmABuF.html">Dibu Martínez y el motivo del  
+            "mirá que te como, hermano"</a></h2>
+        
+        <a href="https://www.ole.com.ar/copa-argentina/argentina-colombia-copa-america_0_bZnvUbi4UP.html"><img 
+            src="https://images.ole.com.ar/2022/07/25/DwVouD7VL_320x210__1.jpg" width="400" height="260"></a>
+            <h2><a href="/copa-argentina/argentina-colombia-copa-america_0_bZnvUbi4UP.html" title="Argentina no pudo con Colombia e 
+            irá por el tercer puesto">Argentina no pudo con Colombia e irá por el tercer puesto</a></h2>
+        
+        <a href="https://www.ole.com.ar/seleccion/placente-sub-15-convocados-_0_NUx56Hppm2.html"><img 
+            src="https://images.ole.com.ar/2022/07/25/epWSc4wL__320x210__1.jpg" width="400" height="260"></a>
+            <h2><a href="/seleccion/placente-sub-15-convocados-_0_NUx56Hppm2.html" title="Diego Placente dio la lista de convocados 
+            para la Sub 15">Diego Placente dio la lista de convocados para la Sub 15</a></h2>
+    </aside>
+
+    <footer>
+        <h4>Página no oficial de la Selección Argentina. Creada por Pablo Martín Puleo</h4>
+    </footer>
+</body>
+</html>
