@@ -1,0 +1,197 @@
+header h1{
+    margin-top: -75px;
+    margin-left: 110px;
+    font-size: 40px;
+}
+header img{
+    margin: 0.5em;
+}
+ul{
+    list-style: none;
+
+}
+#menu li>a{
+    background-image: linear-gradient(0deg, #5D9FFF 0%, #ffffff 48%, #6BBBFF 100%);
+    color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    text-decoration: none;
+    text-align: center;
+}
+#menu li>a:hover{
+    color: #000;
+    background-color: whitesmoke;
+}
+#menu>li{
+    float: left;
+}
+#menu>li>ul{
+    display: none;
+}
+#menu>li:hover>ul {
+    display:block;
+}
+#menu ul{
+    margin-left: -40px;
+}
+main ul{
+    list-style:inside;
+}
+main li{
+    padding: 0.5em;
+    margin-right: 15em;
+    border-radius: 10px;
+}
+main h1, h2{
+    text-align: center;
+}
+main{
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+    margin-left: 1em;
+}
+header{
+    position: absolute;
+    z-index: 2;
+}
+table {
+    width: 50%;
+    border: 2px solid #000;
+    border-spacing: 0px;
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 0.9em;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    border: 1px solid #000;
+    padding: 0.2em;
+ }
+table tr:nth-child(odd) {
+    background-color: rgba(0, 225, 255, 0.651);
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+.par{
+    background-color: rgba(0, 225, 255, 0.651);
+}
+.impar{
+    background-color: rgb(255, 255, 255);
+}
+th{
+    text-align: center;
+    font-size: 1.1em;
+}
+body {
+    margin: 0;
+    background-image: linear-gradient(90deg, #e3eeff 0%, #85d8ff 100%);
+    font-family: Arial;
+    padding-bottom: 40px;
+}
+aside{
+    margin-top: 1em;
+    margin-right: 0.5em;
+}
+aside a{
+    text-decoration: none;
+    color: #000;
+}
+aside img{
+    border-radius: 1.5em;
+}
+
+p{
+    background-color: #5D9FFF;
+    padding: 0.8em;
+    border-radius: 10px;
+}
+.texto-comun{
+    text-align: left;
+}
+#mes{
+    margin: 1em;
+    margin-top: 0;
+}
+.contenedorform{
+    width: 50%;
+    margin-left: 27%;
+}
+.form{
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+.formul{
+    margin-bottom: 1em;
+    margin-left: 1.3em;
+}
+.formu{
+    margin-bottom: 1em;
+    margin-left: 5.4em;
+}
+.boton{
+    margin-left: 11.4em;
+}
+.foto1{
+    position: absolute;
+    top: 180px;
+}
+.foto2{
+    position: absolute;
+    top: 180px;
+    left: 88%;
+}
+.foto3{
+    position: absolute;
+    top: 160px;
+}
+.foto4{
+    position: absolute;
+    top: 165px;
+    left: 88%;
+}
+.gol{
+    position: absolute;
+    top: 1215px;
+    border-radius: 5px;
+    left: 72%;
+}
+.golMano{
+    position: absolute;
+    top: 1010px;
+    left: 72%;
+    border-radius: 5px;
+}
+.este{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.este2{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.este3{
+    width: 68%;
+}
+.este4{
+    width: 68%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #6BBBFF;
+    width: 100%;
+    height: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    z-index: 5;
+}
+h3{
+    text-align: center;
+}
